@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+    align-items: center;
+    background-color: rgb(212, 178, 165);
+    margin: 0vw;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .addTask {
+    padding: 15vw 0;
+    background-color: dodgerblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .task {
+    display: flex;
+    border: 1vw solid rgb(88, 77, 77);
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  input {
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    border:0.2vw solid black 
+
+
+  }
+  button{
+    margin-left: 1vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+    padding: 1vw;
+    color: darkcyan;
+
+  }
+h1{
+  font-size: 4vw;
+  color: rgb(88, 80, 73);
+  margin: 0vw;
+  padding: 2vw;
+
+  
+}
+
+.sign{
+  padding: 1vw 2vw;
+  font-size: 2vw;
+  margin-left: 3vw;
+}
